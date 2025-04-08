@@ -1,3 +1,0 @@
-mensaje='adios'
-
-print(mensaje)
