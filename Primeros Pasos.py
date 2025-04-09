@@ -1,3 +1,3 @@
-mensaje='Holaaa mundoss'
+mensaje='Hola mundo'
 
 print(mensaje)
