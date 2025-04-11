@@ -8,4 +8,4 @@ for i in range(5):
     a+=1
     print(a)
 
-print (9/2)
+print (9//2)
