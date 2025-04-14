@@ -19,3 +19,11 @@ print(otro_diccionario)
 
 tercer_diccionario = dict(nombre="Sofía", pais="Argentina")
 print(tercer_diccionario)
+
+def evaluacion(nota):
+    valoracion="aprobado"
+    if nota<5:
+        valoracion="suspenso"
+    return valoracion
+
+print(evaluacion(4))
