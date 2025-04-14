@@ -13,3 +13,9 @@ miLista2=["Leo", "Estefi", "Mamá", "Snake"]
 miLista3=miLista1+miLista2
 
 print(miLista3)
+
+otro_diccionario = dict([("nombre", "Carlos"), ("profesion", "Ingeniero")])
+print(otro_diccionario)
+
+tercer_diccionario = dict(nombre="Sofía", pais="Argentina")
+print(tercer_diccionario)
