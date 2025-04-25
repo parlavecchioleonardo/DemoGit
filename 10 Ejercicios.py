@@ -22,16 +22,15 @@ for i in numeros:
 #Si la contraseña es correcta el programa imprime "Contraseña OK".
 #En caso contrario imprime "Contraseña erróne"
 contrasena=input("Por favor introduzca su contraseña: ")
-caracteres=0
-campovacio=0
+lencontrasena=len(contrasena)
+vacio=0
 
 for i in contrasena:
-    caracteres=caracteres+1
     if (i == " "):
-        campovacio=campovacio+1
+        vacio=vacio+1
    
 
-if caracteres>=8 and campovacio==0:
+if lencontrasena>=8 and vacio==0:
     print("Ingreso correcto de contraseña")
 else:
     print("Ingreso de contraseña incorrecto, la contraseña debe tener mas de 8 caracteres y ningun espacio vacio")
