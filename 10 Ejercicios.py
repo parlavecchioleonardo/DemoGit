@@ -11,8 +11,7 @@ numeros = list(range(1, 101))
 #numeros = [i for i in range(1, 101)]
 
 for i in numeros:
-    numero1=i
-    resto=numero1%2
+    resto=i%2
     if resto!=0:
         print(f"{i}", end=" ")
 
