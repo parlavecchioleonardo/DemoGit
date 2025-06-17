@@ -34,3 +34,19 @@ echo "===== Manipular Arreglos ====="
 #Eliminar un elemento del arreglo
 unset numeros[0]
 echo "Arreglo de Números ${numeros[*]}"
+numeros[0]=1
+echo "Arreglo de Números ${numeros[*]}"
+
+echo "=============== Iteración FOR ==============="
+
+for num in ${numeros[*]}
+do
+    echo "Numero: $num"
+done
+
+echo "============================================="
+
+for ((i=0; i<${#numeros[*]}; i++))
+do
+    echo "numero ${numeros[i]}"
+done
