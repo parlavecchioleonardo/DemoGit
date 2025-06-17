@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 # Author: Leonardo Parlavecchio
 # Como pasar parametros o argumentos
 

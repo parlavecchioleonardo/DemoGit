@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 # Author: Leonardo Parlavecchio
 # Ejemplificacion de variables y parametros dinámicos
 
